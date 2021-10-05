@@ -8,3 +8,42 @@ body {
   margin: 0;
   box-sizing: border-box;
 }
+.main-header {
+  color: #edf5e1;
+  text-align: center;
+  margin: 3rem;
+  background-color: #05386b;
+  border: 0.3rem solid #379683;
+  height: 6rem;
+  font-size: 4rem;
+}
+
+h2 {
+  box-sizing: content-box;
+  height: 30rem;
+  width: 30rem;
+  background-color: #05386b;
+  font-size: 3rem;
+  border: solid #379683 0.3rem;
+  text-align: center;
+  color: #edf5e1;
+  margin: 3rem;
+}
+
+.row1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.row2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.row3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
