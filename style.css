@@ -2,7 +2,6 @@ body {
   background-color: #5cdb95;
   color: #379683;
   font-size: 62.5%;
-  font-family: "Ephesis", cursive;
   font-family: "Gemunu Libre", sans-serif;
   padding: 0;
   margin: 0;
@@ -28,20 +27,22 @@ body {
 
 .food-item
 {
-width: 20%;
+width: 23%;
 margin: 4rem;
+box-shadow: 0.4rem 0.3rem 0.4rem 1rem #05386b;
+border: solid #379683;
 }
 
 .food
 {
-font-size: 2rem;
+font-size: 3rem;
 color: #edf5e1;
 
 }
 
 .food-img {
   width: 100%;
-  height: 75%;
+  height: 60%;
 }
 .food-price
  {
