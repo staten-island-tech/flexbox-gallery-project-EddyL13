@@ -36,6 +36,7 @@ body {
   font-size: 3rem;
   color: #edf5e1;
   text-align: center;
+  opacity: 0.5;
 }
 
 .food-img {
@@ -54,9 +55,11 @@ body {
 }
 
 .main-header:before {
-  content: "\26C4";
-  font-size: 2rem;
+  top: -100%;
+  left: 0px;
+  width: 100%;
 }
+
 .food-img:hover {
   transform: scale(1.1);
   outline: 1rem solid #05386b;
@@ -67,5 +70,19 @@ body {
 }
 
 .food:hover {
-  transform: ;
+  transform: scale;
+}
+
+.food:hover {
+  opacity: 1;
+}
+
+.food-item:hover {
+  border: 0.5rem solid #ff0059;
+  color: #05386b;
+  background: #5cdb95;
+}
+
+.main-header:hover {
+  transform: skew(-15deg);
 }
