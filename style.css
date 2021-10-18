@@ -15,6 +15,7 @@ body {
   border: 0.3rem solid #379683;
   height: 6rem;
   font-size: 4rem;
+  animation: animate 5s;
 }
 
 .food-gallery {
@@ -34,7 +35,7 @@ body {
 
 .food {
   font-size: 3rem;
-  color: #edf5e1;
+  color: #8b008b;
   text-align: center;
   opacity: 0.5;
 }
@@ -85,4 +86,18 @@ body {
 
 .main-header:hover {
   transform: skew(-15deg);
+}
+
+@keyframes animate {
+  from {
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(100%);
+  }
+}
+
+@media screen and (min-width: 1000rem) and (max-width: 1000rem) {
+  background-color: lightblue;
 }
