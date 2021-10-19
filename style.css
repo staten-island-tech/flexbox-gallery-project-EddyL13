@@ -98,6 +98,5 @@ body {
   }
 }
 
-@media screen and (min-width: 1000rem) and (max-width: 1000rem) {
-  background-color: lightblue;
+@media screen {
 }
