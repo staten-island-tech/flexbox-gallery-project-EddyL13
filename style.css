@@ -98,5 +98,37 @@ body {
   }
 }
 
-@media screen {
+@media (max-width: 768px) {
+  .main-header {
+    font-size: 3.5rem;
+    margin: 0rem 4rem;
+    color: cadetblue;
+  }
+  .food-item {
+    width: 23%;
+    margin: 2.5rem 2rem;
+  }
+  .food {
+    font-size: 1.5rem;
+  }
+  .food-price {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 390px) {
+  .main-header {
+    font-size: 3rem;
+    margin: 0rem 2rem;
+    color: blueviolet;
+  }
+  .food-item {
+    width: 30%;
+    margin: 2.5rem 2rem;
+  }
+  .food {
+    font-size: 1.2rem;
+  }
+  .food-price {
+    font-size: 0.7rem;
+  }
 }
