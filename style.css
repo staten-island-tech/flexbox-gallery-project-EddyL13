@@ -48,11 +48,12 @@ body {
 }
 .food-price {
   text-align: center;
-  margin: 1rem;
+  margin: 2rem;
   font-size: 2rem;
   color: #05386b;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  margin-bottom: 8rem;
 }
 
 .main-header:before {
@@ -112,8 +113,10 @@ body {
   }
   .food-price {
     font-size: 1rem;
+    margin-bottom: 4rem;
+
   }
-}
+
 @media (max-width: 390px) {
   .main-header {
     font-size: 3rem;
